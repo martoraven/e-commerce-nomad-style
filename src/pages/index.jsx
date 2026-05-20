@@ -1,37 +1,36 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
-import Topbar from "@/components/headers/Topbar";
-import BannerCollection from "@/components/homes/home-1/BannerCollection";
-import BannerCountdown from "@/components/homes/home-1/BannerCountdown";
-import Blogs from "@/components/common/Blogs";
-import Collections from "@/components/homes/home-1/Collections";
-import Features from "@/components/common/Features";
-import Hero from "@/components/homes/home-1/Hero";
-import Products from "@/components/common/Products3";
+import Products3 from "@/components/common/Products3";
 import ShopGram from "@/components/common/ShopGram";
 import Testimonials from "@/components/common/Testimonials";
+import Footer1 from "@/components/footers/Footer1";
+import Header1 from "@/components/headers/Header1";
+import Topbar4 from "@/components/headers/Topbar4";
+import Collections from "@/components/homes/fashion-glamDwell/Collections";
+import Hero from "@/components/homes/fashion-glamDwell/Hero";
+import Lookbook from "@/components/homes/fashion-glamDwell/Lookbook";
+import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
+import Features2 from "@/components/common/Features2";
 const metadata = {
-  title: "Home || Modave - Multipurpose Reactjs eCommerce Template",
+  title:
+    "Home Fashion Glamdwell || Modave - Multipurpose Reactjs eCommerce Template",
   description: "Modave - Multipurpose Reactjs eCommerce Template",
 };
 
-export default function HomePage() {
+export default function HomeFashionGlamdwellPage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar />
+      <Topbar4 />
       <Header1 />
       <Hero />
       <Collections />
-      <Products />
-      <BannerCollection />
-      <BannerCountdown />
-      <Testimonials />
-      <Blogs />
-      <ShopGram />
-      <Features />
+      <Products3 parentClass="flat-spacing pt-0" />
+      <Lookbook />
+      <Testimonials parentClass="" />
+      {/* <Features2 parentClass="flat-spacing" /> */}
+      <div className="line-bottom-container"></div>
+      {/* <ShopGram parentClass="flat-spacing" /> */}
       <Footer1 />
     </>
   );

@@ -23,19 +23,21 @@ export default function Header1({ fullWidth = false }) {
           </div>
           <div className="col-xl-3 col-md-4 col-6">
             <Link to={`/`} className="logo-header">
-              <img
+              {/* <img
                 alt="logo"
                 className="logo"
                 src="/images/logo/logo.svg"
                 width={144}
                 height={25}
-              />
+              /> */}
+
+              ACÁ VA EL LOGO
             </Link>
           </div>
           <div className="col-xl-6 d-none d-xl-block">
             <nav className="box-navigation text-center">
               <ul className="box-nav-ul d-flex align-items-center justify-content-center">
-                <Nav />
+                {/* <Nav /> */}
               </ul>
             </nav>
           </div>

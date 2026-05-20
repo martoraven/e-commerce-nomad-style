@@ -8,24 +8,24 @@ export default function Topbar() {
       <div className="container">
         <div className="tf-topbar_wrap d-flex align-items-center justify-content-center justify-content-xl-between">
           <ul className="topbar-left">
-            <li>
+            {/* <li>
               <a className="text-caption-1 text-white" href="tel:315-666-6688">
                 315-666-6688
               </a>
-            </li>
+            </li> */}
             <li>
               <a className="text-caption-1 text-white" href="#">
-                themesflat@gmail.com
+                info@meridianmanagementsolutions.com
               </a>
             </li>
-            <li>
+            {/* <li>
               <Link
                 className="text-caption-1 text-white text-decoration-underline"
                 to={`/store-list`}
               >
                 Our Store
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className="topbar-right d-none d-xl-block">
             <div className="tf-cur justify-content-end">

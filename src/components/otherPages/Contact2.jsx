@@ -112,19 +112,18 @@ export default function Contact2() {
           </div>
           <div className="right">
             <h4>Information</h4>
-            <div className="mb_20">
+            {/* <div className="mb_20">
               <div className="text-title mb_8">Phone:</div>
               <p className="text-secondary">+1 666 234 8888</p>
-            </div>
+            </div> */}
             <div className="mb_20">
               <div className="text-title mb_8">Email:</div>
-              <p className="text-secondary">themesflat@gmail.com</p>
+              <p className="text-secondary">info@meridianmanagementsolutions.com</p>
             </div>
             <div className="mb_20">
-              <div className="text-title mb_8">Address:</div>
+              <div className="text-title mb_8">Country:</div>
               <p className="text-secondary">
-                2163 Phillips Gap Rd, West Jefferson, North Carolina, United
-                States
+                United States
               </p>
             </div>
             <div>

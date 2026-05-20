@@ -92,18 +92,19 @@ export default function Footer1({
                   <div className="footer-infor">
                     <div className="footer-logo">
                       <Link to={`/`}>
-                        <img
-                          alt=""
-                          src={
-                            dark
-                              ? "/images/logo/logo-white.svg"
-                              : "/images/logo/logo.svg"
-                          }
-                        />
+                          {/* <img
+                            alt=""
+                            src={
+                              dark
+                                ? "/images/logo/logo-white.svg"
+                                : "/images/logo/logo.svg"
+                            }
+                          /> */}
+                          ACÁ VA EL LOGO
                       </Link>
                     </div>
                     <div className="footer-address">
-                      <p>549 Oak St.Crystal Lake, IL 60014</p>
+                      <p>United States</p>
                       <Link
                         to={`/contact`}
                         className={`tf-btn-default fw-6 ${
@@ -117,12 +118,12 @@ export default function Footer1({
                     <ul className="footer-info">
                       <li>
                         <i className="icon-mail" />
-                        <p>themesflat@gmail.com</p>
+                        <p>info@meridianmanagementsolutions.com</p>
                       </li>
-                      <li>
+                      {/* <li>
                         <i className="icon-phone" />
                         <p>315-666-6688</p>
-                      </li>
+                      </li> */}
                     </ul>
                     <ul
                       className={`tf-social-icon  ${
@@ -266,7 +267,7 @@ export default function Footer1({
                   <div className="footer-bottom-wrap">
                     <div className="left">
                       <p className="text-caption-1">
-                        ©{new Date().getFullYear()} Modave. All Rights Reserved.
+                        ©{new Date().getFullYear()} Tienda Marto. All Rights Reserved.
                       </p>
                       <div className="tf-cur justify-content-end">
                         <div className="tf-currencies">
