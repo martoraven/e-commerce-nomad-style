@@ -13,8 +13,8 @@ import MetaComponent from "@/components/common/MetaComponent";
 import Features2 from "@/components/common/Features2";
 const metadata = {
   title:
-    "Home Fashion Glamdwell || Modave - Multipurpose Reactjs eCommerce Template",
-  description: "Modave - Multipurpose Reactjs eCommerce Template",
+    "Home || Ecommerce Marti",
+  description: "Ecommerce Marti",
 };
 
 export default function HomeFashionGlamdwellPage() {
