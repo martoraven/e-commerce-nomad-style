@@ -1,16 +1,11 @@
-import { useEffect, useRef, useState } from "react";
-
-import { images } from "@/data/singleProductSliders";
+import { useEffect, useRef } from "react";
 
 export default function Grid5({
   activeColor = "gray",
   setActiveColor = () => {},
-  firstItem,
+  items = [],
 }) {
-  const finalItems = [...images];
-  images[0].src = firstItem ?? images[0].src;
-
-  // itemsFinal2[0].src = products[0].imgSrc;
+  const finalItems = items;
 
   const observerRef = useRef(null);
 
@@ -68,22 +63,22 @@ export default function Grid5({
         observerRef.current.disconnect();
       }
     };
-  }, []);
+  }, [items]);
   return (
     <div className="tf-quick-view-image">
       <div className="wrap-quick-view wrapper-scroll-quickview">
         {finalItems.map((link, index) => (
           <a
             className="quickView-item item-scroll-quickview"
-            data-scroll={link.dataScroll}
+            data-scroll={link.color}
             key={index}
           >
             <img
               className="lazyload"
-              alt={""}
+              alt={link.alt || ""}
               src={link.src}
-              width={600}
-              height={800}
+              width={link.width || 600}
+              height={link.height || 800}
             />
           </a>
         ))}

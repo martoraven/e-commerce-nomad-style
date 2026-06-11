@@ -51,9 +51,8 @@ export default function Hero() {
                           </p>
                         </div>
                         <div className="fade-item fade-item-3 box-btn-slider">
-                          {/* Link is added directly in JSX */}
                           <Link
-                            to={`/shop`}
+                            to={slide.link || "/shop"}
                             className="tf-btn btn-fill"
                           >
                             <span className="text">{slide.buttonText}</span>

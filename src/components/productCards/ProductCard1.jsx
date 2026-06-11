@@ -10,8 +10,6 @@ export default function ProductCard1({ product, gridClass = "" }) {
     setQuickAddItem,
     addToWishlist,
     isAddedtoWishlist,
-    addToCompareItem,
-    isAddedtoCompareItem,
     setQuickViewItem,
     addProductToCart,
     isAddedToCartProducts,
@@ -183,20 +181,6 @@ export default function ProductCard1({ product, gridClass = "" }) {
               {isAddedtoWishlist(product.id)
                 ? "Already Wishlished"
                 : "Wishlist"}
-            </span>
-          </a>
-          <a
-            href="#compare"
-            data-bs-toggle="offcanvas"
-            aria-controls="compare"
-            onClick={() => addToCompareItem(product.id)}
-            className="box-icon compare btn-icon-action"
-          >
-            <span className="icon icon-gitDiff" />
-            <span className="tooltip">
-              {isAddedtoCompareItem(product.id)
-                ? "Already compared"
-                : "Compare"}
             </span>
           </a>
           <a

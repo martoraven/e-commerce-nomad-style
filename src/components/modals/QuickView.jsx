@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-import SizeSelect from "../productDetails/SizeSelect";
 import ColorSelect from "../productDetails/ColorSelect";
 import Grid5 from "../productDetails/grids/Grid5";
 import { useContextElement } from "@/context/Context";
 import QuantitySelect from "../productDetails/QuantitySelect";
 export default function QuickView() {
-  const [activeColor, setActiveColor] = useState("gray");
+  const [activeColor, setActiveColor] = useState("");
   const [quantity, setQuantity] = useState(1); // Initial quantity is 1
   const {
     quickViewItem,
@@ -20,32 +19,23 @@ export default function QuickView() {
     updateQuantity,
   } = useContextElement();
 
-  const openModalSizeChoice = () => {
-    const bootstrap = require("bootstrap"); // dynamically import bootstrap
-    var myModal = new bootstrap.Modal(document.getElementById("size-guide"), {
-      keyboard: false,
-    });
+  useEffect(() => {
+    setActiveColor("");
+    setQuantity(1);
+  }, [quickViewItem]);
 
-    myModal.show();
-    document
-      .getElementById("size-guide")
-      .addEventListener("hidden.bs.modal", () => {
-        myModal.hide();
-      });
-    const backdrops = document.querySelectorAll(".modal-backdrop");
-    if (backdrops.length > 1) {
-      // Apply z-index to the last backdrop
-      const lastBackdrop = backdrops[backdrops.length - 1];
-      lastBackdrop.style.zIndex = "1057";
-    }
-  };
+  const galleryItems = quickViewItem.gallery?.length
+    ? quickViewItem.gallery
+    : [{ src: quickViewItem.imgSrc, color: "" }];
+  const currentColor =
+    activeColor || quickViewItem.colorOptions?.[0]?.color || "";
   return (
     <div className="modal fullRight fade modal-quick-view" id="quickView">
       <div className="modal-dialog">
         <div className="modal-content">
           <Grid5
-            firstItem={quickViewItem.imgSrc}
-            activeColor={activeColor}
+            items={galleryItems}
+            activeColor={currentColor}
             setActiveColor={setActiveColor}
           />
           <div className="wrap mw-100p-hidden">
@@ -59,7 +49,9 @@ export default function QuickView() {
             <div className="tf-product-info-list">
               <div className="tf-product-info-heading">
                 <div className="tf-product-info-name">
-                  <div className="text text-btn-uppercase">Clothing</div>
+                  <div className="text text-btn-uppercase">
+                    {quickViewItem.category || quickViewItem.vendor || ""}
+                  </div>
                   <h3 className="name">{quickViewItem.title}</h3>
                   <div className="sub">
                     <div className="tf-product-info-rate">
@@ -99,11 +91,9 @@ export default function QuickView() {
                       ""
                     )}
                   </div>
-                  <p>
-                    The garments labelled as Committed are products that have
-                    been produced using sustainable fibres or processes,
-                    reducing their environmental impact.
-                  </p>
+                  {quickViewItem.description && (
+                    <p>{quickViewItem.description}</p>
+                  )}
                   <div className="tf-product-info-liveview">
                     <i className="icon icon-eye" />
                     <p className="text-caption-1">
@@ -114,11 +104,13 @@ export default function QuickView() {
                 </div>
               </div>
               <div className="tf-product-info-choose-option">
-                <ColorSelect
-                  activeColor={activeColor}
-                  setActiveColor={setActiveColor}
-                />
-                <SizeSelect />
+                {quickViewItem.colorOptions?.length > 0 && (
+                  <ColorSelect
+                    activeColor={currentColor}
+                    setActiveColor={setActiveColor}
+                    colorOptions={quickViewItem.colorOptions}
+                  />
+                )}
                 <div className="tf-product-info-quantity">
                   <div className="title mb_12">Quantity:</div>
                   <QuantitySelect

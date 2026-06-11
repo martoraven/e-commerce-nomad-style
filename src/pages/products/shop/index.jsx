@@ -10,8 +10,8 @@ import { stonepathProducts } from "@/data/stonepath-products";
 const CATEGORY_NAMES = {
   wallets: "Wallets",
   eyewear: "Eyewear",
-  "watch-bands": "Watch Bands",
-  airtag: "AirTag",
+  kitchen: "Kitchen",
+  gadgets: "Gadgets",
 };
 
 export default function ShopPage() {

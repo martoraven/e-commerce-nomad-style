@@ -128,30 +128,33 @@ export const slidesData = [
 export const slides5 = [
   {
     id: 1,
-    imgSrc: "/images/slider/slider-glamDwell.jpg",
-    alt: "fashion-slideshow",
-    title: "Fresh Fashion Finds",
+    imgSrc: "/images/slider/slider-glamDwell.png",
+    alt: "STONEPATH leather everyday carry essentials",
+    title: "Carry Less. Carry Better.",
     description:
-      "Revitalize your style with our latest, exciting fashion selections.",
-    buttonText: "Explore Collection",
+      "Full-grain leather essentials that age with you — wallets, sleeves, and everyday carry built to last decades.",
+    buttonText: "Shop Collection",
+    link: "/shop",
   },
   {
     id: 2,
-    imgSrc: "/images/slider/slider-glamDwell2.jpg",
-    alt: "fashion-slideshow",
-    title: "Luxury Outerwear",
+    imgSrc: "/images/slider/slider-glamDwell2.png",
+    alt: "STONEPATH kitchen tools",
+    title: "Tools, Not Toys",
     description:
-      "Indulge in our luxurious outerwear for unmatched elegance and warmth.",
-    buttonText: "Shop Sale",
+      "Forged knives and pro-grade power for your kitchen. Built for the people who actually cook.",
+    buttonText: "Shop Kitchen",
+    link: "/shop?category=kitchen",
   },
   {
     id: 3,
-    imgSrc: "/images/slider/slider-glamDwell3.jpg",
-    alt: "fashion-slideshow",
-    title: "Runway Ready Looks",
+    imgSrc: "/images/slider/slider-glamDwell3.png",
+    alt: "STONEPATH Party Speaker XL",
+    title: "Bring the Venue Home",
     description:
-      "Embrace fashion-forward, runway-ready outfits for every occasion.",
-    buttonText: "Shop New",
+      "The Party Speaker XL: 1000W of stage-grade sound, 24 hours of battery, zero compromises.",
+    buttonText: "Shop Gadgets",
+    link: "/shop?category=gadgets",
   },
 ];
 
