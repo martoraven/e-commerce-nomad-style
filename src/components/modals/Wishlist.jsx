@@ -77,13 +77,7 @@ export default function Wishlist() {
                 </div>
               </div>
               <div className="tf-mini-cart-bottom">
-                <Link
-                  to={`/wish-list`}
-                  className="btn-style-2 w-100 radius-4 view-all-wishlist"
-                >
-                  <span className="text-btn-uppercase">View All Wish List</span>
-                </Link>
-                <Link to={`/shop-default-grid`} className="text-btn-uppercase">
+                <Link to={`/shop`} className="text-btn-uppercase">
                   Or continue shopping
                 </Link>
               </div>

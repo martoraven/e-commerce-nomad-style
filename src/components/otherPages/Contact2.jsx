@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 export default function Contact2() {
   const formRef = useRef();
   const [success, setSuccess] = useState(true);
@@ -12,26 +11,12 @@ export default function Contact2() {
     }, 2000);
   };
 
+  // Dummy store: no backend, the contact form is simulated locally
   const sendMail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm("service_noj8796", "template_fs3xchn", formRef.current, {
-        publicKey: "iG4SCmR-YtJagQ4gV",
-      })
-      .then((res) => {
-        if (res.status === 200) {
-          setSuccess(true);
-          handleShowMessage();
-
-          formRef.current.reset();
-        } else {
-          setSuccess(false);
-          handleShowMessage();
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    formRef.current.reset();
+    setSuccess(true);
+    handleShowMessage();
   };
   return (
     <section className="flat-spacing">
@@ -49,7 +34,7 @@ export default function Contact2() {
             >
               {success ? (
                 <p style={{ color: "rgb(52, 168, 83)" }}>
-                  You have successfully subscribed.
+                  Your message has been sent successfully.
                 </p>
               ) : (
                 <p style={{ color: "red" }}>Something went wrong</p>
@@ -118,7 +103,7 @@ export default function Contact2() {
             </div> */}
             <div className="mb_20">
               <div className="text-title mb_8">Email:</div>
-              <p className="text-secondary">info@meridianmanagementsolutions.com</p>
+              <p className="text-secondary">info@stonepathstore.com</p>
             </div>
             <div className="mb_20">
               <div className="text-title mb_8">Country:</div>

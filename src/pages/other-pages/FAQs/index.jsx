@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "Faqs || Modave - Multipurpose Reactjs eCommerce Template",
-  description: "Modave - Multipurpose Reactjs eCommerce Template",
+  title: "FAQs — STONEPATH",
+  description: "Frequently asked questions about STONEPATH orders, shipping, returns and products.",
 };
 
 export default function FAQSPage() {

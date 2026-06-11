@@ -21,7 +21,7 @@ export default function About() {
           <div className="col-md-6">
             <div className="about-us-content">
               <h3 className="title wow fadeInUp">
-                Modave – Offering rare and beautiful items worldwide
+                STONEPATH – Essentials built to last
               </h3>
               <div className="widget-tabs style-3">
                 <ul className="widget-menu-tab wow fadeInUp">
@@ -59,14 +59,12 @@ export default function About() {
                     } `}
                   >
                     <p>
-                      Welcome to Modave Store, your premier destination for
-                      fashion-forward clothing and accessories. We pride
-                      ourselves on offering a curated selection of rare and
-                      beautiful items sourced both locally and globally. Our
-                      mission is to bring you the latest trends and timeless
-                      styles, ensuring every piece reflects quality and
-                      elegance. Discover the perfect addition to your wardrobe
-                      at Modave Store.
+                      STONEPATH started with a simple frustration: everyday
+                      objects that fall apart. Wallets that peel, gadgets that
+                      feel disposable, tools that need replacing every year. We
+                      build the opposite — full-grain leather goods, forged
+                      kitchen tools and electronics designed around one idea:
+                      buy it once, use it for decades.
                     </p>
                   </div>
                   <div
@@ -75,14 +73,12 @@ export default function About() {
                     } `}
                   >
                     <p>
-                      Welcome to Modave Store, your premier destination for
-                      fashion-forward clothing and accessories. We pride
-                      ourselves on offering a curated selection of rare and
-                      beautiful items sourced both locally and globally. Our
-                      mission is to bring you the latest trends and timeless
-                      styles, ensuring every piece reflects quality and
-                      elegance. Discover the perfect addition to your wardrobe
-                      at Modave Store.
+                      We believe the things you touch every day should get
+                      better with time, not worse. A wallet should develop a
+                      patina that tells your story. A knife should hold its
+                      edge. A speaker should survive a hundred backyard
+                      parties. Our vision is a catalog where every product
+                      earns its place in your life for the long run.
                     </p>
                   </div>
                   <div
@@ -91,14 +87,11 @@ export default function About() {
                     } `}
                   >
                     <p>
-                      Welcome to Modave Store, your premier destination for
-                      fashion-forward clothing and accessories. We pride
-                      ourselves on offering a curated selection of rare and
-                      beautiful items sourced both locally and globally. Our
-                      mission is to bring you the latest trends and timeless
-                      styles, ensuring every piece reflects quality and
-                      elegance. Discover the perfect addition to your wardrobe
-                      at Modave Store.
+                      Materials first: full-grain leather instead of bonded,
+                      birch plywood instead of plastic, high-carbon steel
+                      instead of stamped blades. No seasonal collections, no
+                      artificial variety — a small catalog of essentials,
+                      each one refined until there is nothing left to remove.
                     </p>
                   </div>
                   <div
@@ -107,14 +100,11 @@ export default function About() {
                     } `}
                   >
                     <p>
-                      Welcome to Modave Store, your premier destination for
-                      fashion-forward clothing and accessories. We pride
-                      ourselves on offering a curated selection of rare and
-                      beautiful items sourced both locally and globally. Our
-                      mission is to bring you the latest trends and timeless
-                      styles, ensuring every piece reflects quality and
-                      elegance. Discover the perfect addition to your wardrobe
-                      at Modave Store.
+                      Every STONEPATH product ships with a 2-year warranty
+                      against manufacturing defects, and we stand behind it.
+                      If something fails because we built it wrong, we repair
+                      it or replace it — no fine print gymnastics. Reach us
+                      anytime at info@stonepathstore.com.
                     </p>
                   </div>
                 </div>

@@ -1,21 +1,25 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 
-import { productMain } from "@/data/products";
+import { Link } from "react-router-dom";
+import {
+  stonepathProducts,
+  stonepathCategories,
+} from "@/data/stonepath-products";
 import ProductCard1 from "../productCards/ProductCard1";
-export default function SearchModal() {
-  const [loading, setLoading] = useState(false);
 
-  const [loadedItems, setLoadedItems] = useState(productMain.slice(0, 8));
-  const handleLoad = () => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoadedItems((pre) => [
-        ...pre,
-        ...productMain.slice(pre.length, pre.length + 4),
-      ]);
-      setLoading(false);
-    }, 1000);
-  };
+export default function SearchModal() {
+  const [query, setQuery] = useState("");
+
+  const results = useMemo(() => {
+    const term = query.trim().toLowerCase();
+    if (!term) return stonepathProducts;
+    return stonepathProducts.filter(
+      (product) =>
+        product.title.toLowerCase().includes(term) ||
+        product.category.toLowerCase().includes(term)
+    );
+  }, [query]);
+
   return (
     <div className="modal fade modal-search" id="search">
       <div className="modal-dialog modal-dialog-centered">
@@ -31,11 +35,12 @@ export default function SearchModal() {
             <fieldset className="text">
               <input
                 type="text"
-                placeholder="Searching..."
+                placeholder="Search products..."
                 className=""
                 name="text"
                 tabIndex={0}
-                defaultValue=""
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
                 aria-required="true"
                 required
               />
@@ -67,58 +72,38 @@ export default function SearchModal() {
             </button>
           </form>
           <div>
-            <h5 className="mb_16">Feature keywords Today</h5>
+            <h5 className="mb_16">Browse categories</h5>
             <ul className="list-tags">
-              <li>
-                <a href="#" className="radius-60 link">
-                  Dresses
-                </a>
-              </li>
-              <li>
-                <a href="#" className="radius-60 link">
-                  Dresses women
-                </a>
-              </li>
-              <li>
-                <a href="#" className="radius-60 link">
-                  Dresses midi
-                </a>
-              </li>
-              <li>
-                <a href="#" className="radius-60 link">
-                  Dress summer
-                </a>
-              </li>
+              {stonepathCategories.map((category) => (
+                <li key={category.id}>
+                  <Link
+                    to={`/shop?category=${category.slug}`}
+                    className="radius-60 link"
+                  >
+                    {category.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div>
-            <h6 className="mb_16">Recently viewed products</h6>
-            <div className="tf-grid-layout tf-col-2 lg-col-3 xl-col-4">
-              {loadedItems.map((product, i) => (
-                <ProductCard1 product={product} key={i} />
-              ))}
-            </div>
+            <h6 className="mb_16">
+              {query.trim()
+                ? `Results (${results.length})`
+                : "Discover our products"}
+            </h6>
+            {results.length > 0 ? (
+              <div className="tf-grid-layout tf-col-2 lg-col-3 xl-col-4">
+                {results.map((product, i) => (
+                  <ProductCard1 product={product} key={i} />
+                ))}
+              </div>
+            ) : (
+              <p className="text-secondary">
+                No products found for "{query.trim()}".
+              </p>
+            )}
           </div>
-          {/* Load Item */}
-
-          {productMain.length == loadedItems.length ? (
-            ""
-          ) : (
-            <div
-              className="wd-load view-more-button text-center"
-              onClick={() => handleLoad()}
-            >
-              <button
-                className={`tf-loading btn-loadmore tf-btn btn-reset ${
-                  loading ? "loading" : ""
-                } `}
-              >
-                <span className="text text-btn text-btn-uppercase">
-                  Load more
-                </span>
-              </button>
-            </div>
-          )}
         </div>
       </div>
     </div>

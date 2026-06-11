@@ -1,18 +1,16 @@
-import Brands from "@/components/common/Brands";
 import Features2 from "@/components/common/Features2";
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import { Link } from "react-router-dom";
 import Topbar6 from "@/components/headers/Topbar6";
 import About from "@/components/otherPages/About";
-import Team from "@/components/otherPages/Team";
 import Testimonials from "@/components/otherPages/Testimonials";
 import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "About Us || Modave - Multipurpose Reactjs eCommerce Template",
-  description: "Modave - Multipurpose Reactjs eCommerce Template",
+  title: "About Us — STONEPATH",
+  description: "Learn about STONEPATH and the essentials we build.",
 };
 
 export default function AboutUsPage() {
@@ -54,8 +52,6 @@ export default function AboutUsPage() {
       </div>
       <About />
       <Features2 parentClass="flat-spacing line-bottom-container" />
-      <Team />
-      <Brands parentClass="flat-spacing-5 bg-surface" />
       <Testimonials />
       <Footer1 />
     </>

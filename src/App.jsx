@@ -65,7 +65,6 @@ import ProductStylePage4 from "./pages/products/product-style-04";
 import ProductStylePage5 from "./pages/products/product-style-05";
 import ProductStylePage6 from "./pages/products/product-style-06";
 import ProductStylePage7 from "./pages/products/product-style-07";
-import WishListPage from "./pages/other-pages/wish-list";
 import SearchResultPage from "./pages/products/search-result";
 import ShopingCartPage from "./pages/products/shopping-cart";
 import LoginPage from "./pages/other-pages/login";
@@ -384,7 +383,6 @@ function App() {
               <Route path="product-style-05" element={<ProductStylePage5 />} />
               <Route path="product-style-06" element={<ProductStylePage6 />} />
               <Route path="product-style-07" element={<ProductStylePage7 />} />
-              <Route path="wish-list" element={<WishListPage />} />
               <Route
                 path="compare-products"
                 element={<CompareProductsPage />}

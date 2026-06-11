@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "Terms of Use || Modave - Multipurpose Reactjs eCommerce Template",
-  description: "Modave - Multipurpose Reactjs eCommerce Template",
+  title: "Terms of Use — STONEPATH",
+  description: "Terms and conditions for using the STONEPATH online store.",
 };
 
 export default function TermsOfUsePage() {

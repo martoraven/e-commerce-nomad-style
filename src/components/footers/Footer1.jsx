@@ -22,32 +22,12 @@ export default function Footer1({
     }, 2000);
   };
 
-  const sendEmail = async (e) => {
-    e.preventDefault(); // Prevent default form submission behavior
-    const email = e.target.email.value;
-
-    try {
-      const response = await axios.post(
-        "https://express-brevomail.vercel.app/api/contacts",
-        {
-          email,
-        }
-      );
-
-      if ([200, 201].includes(response.status)) {
-        e.target.reset(); // Reset the form
-        setSuccess(true); // Set success state
-        handleShowMessage();
-      } else {
-        setSuccess(false); // Handle unexpected responses
-        handleShowMessage();
-      }
-    } catch (error) {
-      console.error("Error:", error.response?.data || "An error occurred");
-      setSuccess(false); // Set error state
-      handleShowMessage();
-      e.target.reset(); // Reset the form
-    }
+  // Dummy store: no backend, the subscription is simulated locally
+  const sendEmail = (e) => {
+    e.preventDefault();
+    e.target.reset();
+    setSuccess(true);
+    handleShowMessage();
   };
   useEffect(() => {
     const headings = document.querySelectorAll(".footer-heading-mobile");
@@ -92,15 +72,17 @@ export default function Footer1({
                   <div className="footer-infor">
                     <div className="footer-logo">
                       <Link to={`/`}>
-                          {/* <img
-                            alt=""
-                            src={
-                              dark
-                                ? "/images/logo/logo-white.svg"
-                                : "/images/logo/logo.svg"
-                            }
-                          /> */}
-                          ACÁ VA EL LOGO
+                        <span
+                          style={{
+                            fontSize: "28px",
+                            fontWeight: 800,
+                            letterSpacing: "4px",
+                            color: dark ? "#fff" : "#000",
+                            whiteSpace: "nowrap",
+                          }}
+                        >
+                          STONEPATH
+                        </span>
                       </Link>
                     </div>
                     <div className="footer-address">
@@ -118,7 +100,7 @@ export default function Footer1({
                     <ul className="footer-info">
                       <li>
                         <i className="icon-mail" />
-                        <p>info@meridianmanagementsolutions.com</p>
+                        <p>info@stonepathstore.com</p>
                       </li>
                       {/* <li>
                         <i className="icon-phone" />
@@ -177,7 +159,7 @@ export default function Footer1({
                 <div className="col-lg-4">
                   <div className="footer-col-block">
                     <div className="footer-heading text-button footer-heading-mobile">
-                      Newletter
+                      Newsletter
                     </div>
                     <div className="tf-collapse-content">
                       <div className="footer-newsletter">
@@ -242,14 +224,10 @@ export default function Footer1({
                             className="text-caption-1"
                             htmlFor="footer-Form_agree"
                           >
-                            By clicking subcribe, you agree to the{" "}
+                            By clicking subscribe, you agree to the{" "}
                             <Link className="fw-6 link" to={`/term-of-use`}>
                               Terms of Service
-                            </Link>{" "}
-                            and{" "}
-                            <a className="fw-6 link" href="#">
-                              Privacy Policy
-                            </a>
+                            </Link>
                             .
                           </label>
                         </div>
@@ -267,7 +245,7 @@ export default function Footer1({
                   <div className="footer-bottom-wrap">
                     <div className="left">
                       <p className="text-caption-1">
-                        ©{new Date().getFullYear()} Tienda Marto. All Rights Reserved.
+                        ©{new Date().getFullYear()} STONEPATH. All Rights Reserved.
                       </p>
                       <div className="tf-cur justify-content-end">
                         <div className="tf-currencies">

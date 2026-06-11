@@ -6,8 +6,8 @@ import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "Contact || Modave - Multipurpose Reactjs eCommerce Template",
-  description: "Modave - Multipurpose Reactjs eCommerce Template",
+  title: "Contact — STONEPATH",
+  description: "Get in touch with the STONEPATH team.",
 };
 
 export default function ContactPage() {

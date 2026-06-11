@@ -1,4 +1,4 @@
-import { testimonials6 } from "@/data/testimonials";
+import { stonepathTestimonials } from "@/data/stonepath-products";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,24 +26,21 @@ export default function Testimonials() {
             el: ".spd81",
           }}
         >
-          {testimonials6.map((item, index) => (
+          {stonepathTestimonials.map((item, index) => (
             <SwiperSlide key={index}>
-              <div
-                className="testimonial-item style-4"
-                style={{ animationDelay: item.delay }}
-              >
+              <div className="testimonial-item style-4">
                 <div className="content-top">
                   <div className="box-icon">
                     <i className="icon icon-quote" />
                   </div>
                   <div className="text-title">{item.title}</div>
-                  <p className="text-secondary">{item.text}</p>
+                  <p className="text-secondary">{item.quote}</p>
                   <div className="box-rate-author">
                     <div className="box-author">
                       <div className="text-title author">{item.author}</div>
                     </div>
                     <div className="list-star-default color-primary">
-                      {Array(item.stars)
+                      {Array(5)
                         .fill(0)
                         .map((_, starIndex) => (
                           <i key={starIndex} className="icon icon-star" />

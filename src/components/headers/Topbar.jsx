@@ -15,7 +15,7 @@ export default function Topbar() {
             </li> */}
             <li>
               <a className="text-caption-1 text-white" href="#">
-                info@meridianmanagementsolutions.com
+                info@stonepathstore.com
               </a>
             </li>
             {/* <li>

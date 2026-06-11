@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import axios from "axios";
 import { useLocation } from "react-router-dom";
 export default function NewsLetterModal() {
   const { pathname } = useLocation();
@@ -36,32 +35,12 @@ export default function NewsLetterModal() {
       setShowMessage(false);
     }, 2000);
   };
-  const sendEmail = async (e) => {
-    e.preventDefault(); // Prevent default form submission behavior
-    const email = e.target.email.value;
-
-    try {
-      const response = await axios.post(
-        "https://express-brevomail.vercel.app/api/contacts",
-        {
-          email,
-        }
-      );
-
-      if ([200, 201].includes(response.status)) {
-        e.target.reset(); // Reset the form
-        setSuccess(true); // Set success state
-        handleShowMessage();
-      } else {
-        setSuccess(false); // Handle unexpected responses
-        handleShowMessage();
-      }
-    } catch (error) {
-      console.error("Error:", error.response?.data || "An error occurred");
-      setSuccess(false); // Set error state
-      handleShowMessage();
-      e.target.reset(); // Reset the form
-    }
+  // Dummy store: no backend, the subscription is simulated locally
+  const sendEmail = (e) => {
+    e.preventDefault();
+    e.target.reset();
+    setSuccess(true);
+    handleShowMessage();
   };
 
   return (
@@ -88,7 +67,7 @@ export default function NewsLetterModal() {
           </div>
           <div className="modal-bottom text-center">
             <p className="text-btn-uppercase fw-4 font-2">
-              Subscribe To Our Newletter!
+              Subscribe To Our Newsletter!
             </p>
             <h5>
               Receive 10% OFF your next order, exclusive offers &amp; more!
