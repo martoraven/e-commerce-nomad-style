@@ -5010,7 +5010,10 @@ export const products63 = [
   },
 ];
 export const productMain = [...products, ...products7, ...products42];
+import { stonepathProducts } from "./stonepath-products";
+
 export const allProducts = [
+  ...stonepathProducts,
   ...products,
   ...products2,
   ...products3,

@@ -75,9 +75,9 @@ export default function NewsLetterModal() {
           <div className="modal-top">
             <img
               className="lazyload"
-              data-src="/images/section/newsletter.jpg"
-              alt="/images"
-              src="/images/section/newsletter.jpg"
+              data-src="/images/products/stonepath/eyewear-case/gallery-02.png"
+              alt="STONEPATH leather eyewear case"
+              src="/images/products/stonepath/eyewear-case/gallery-02.png"
               width={660}
               height={440}
             />

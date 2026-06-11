@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Pagination } from "swiper/modules";
-import { testimonialsWithProduct9 } from "@/data/products";
+import { stonepathTestimonials } from "@/data/stonepath-products";
 import { useContextElement } from "@/context/Context";
 export default function Testimonials({ parentClass = "flat-spacing" }) {
   const { setQuickViewItem } = useContextElement();
@@ -45,7 +45,7 @@ export default function Testimonials({ parentClass = "flat-spacing" }) {
               el: ".spd7",
             }}
           >
-            {testimonialsWithProduct9.map((testimonial, index) => (
+            {stonepathTestimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
                 <div className="testimonial-item hover-img">
                   <div className="img-style">

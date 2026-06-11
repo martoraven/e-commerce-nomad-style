@@ -32,6 +32,7 @@ export default function Details1({ product }) {
                   setActiveColor={setActiveColor}
                   activeColor={activeColor}
                   firstItem={product.imgSrc}
+                  slideItems={product.gallery}
                 />
               </div>
             </div>
@@ -43,7 +44,7 @@ export default function Details1({ product }) {
                 <div className="tf-product-info-list other-image-zoom">
                   <div className="tf-product-info-heading">
                     <div className="tf-product-info-name">
-                      <div className="text text-btn-uppercase">Clothing</div>
+                      <div className="text text-btn-uppercase">{product.category || "Clothing"}</div>
                       <h3 className="name">{product.title}</h3>
                       <div className="sub">
                         <div className="tf-product-info-rate">
@@ -87,9 +88,8 @@ export default function Details1({ product }) {
                         )}
                       </div>
                       <p>
-                        The garments labelled as Committed are products that
-                        have been produced using sustainable fibres or
-                        processes, reducing their environmental impact.
+                        {product.description ||
+                          "The garments labelled as Committed are products that have been produced using sustainable fibres or processes, reducing their environmental impact."}
                       </p>
                       <div className="tf-product-info-liveview">
                         <i className="icon icon-eye" />
@@ -104,8 +104,9 @@ export default function Details1({ product }) {
                     <ColorSelect
                       setActiveColor={setActiveColor}
                       activeColor={activeColor}
+                      colorOptions={product.colorOptions}
                     />
-                    <SizeSelect />
+                    {(!product.filterSizes || product.filterSizes.length > 0) && <SizeSelect />}
                     <div className="tf-product-info-quantity">
                       <div className="title mb_12">Quantity:</div>
                       <QuantitySelect
@@ -266,11 +267,11 @@ export default function Details1({ product }) {
                     <ul className="tf-product-info-sku">
                       <li>
                         <p className="text-caption-1">SKU:</p>
-                        <p className="text-caption-1 text-1">53453412</p>
+                        <p className="text-caption-1 text-1">{product.sku || "53453412"}</p>
                       </li>
                       <li>
                         <p className="text-caption-1">Vendor:</p>
-                        <p className="text-caption-1 text-1">Modave</p>
+                        <p className="text-caption-1 text-1">{product.vendor || "Modave"}</p>
                       </li>
                       <li>
                         <p className="text-caption-1">Available:</p>

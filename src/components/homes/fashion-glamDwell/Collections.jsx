@@ -1,4 +1,4 @@
-import { categories2 } from "@/data/collections";
+import { stonepathCategories } from "@/data/stonepath-products";
 import React from "react";
 
 import { Link } from "react-router-dom";
@@ -10,12 +10,12 @@ export default function Collections() {
           <h3 className="heading">Shop by categories</h3>
         </div>
         <div className="grid-cls grid-cls-v1">
-          {categories2.map((category) => (
+          {stonepathCategories.map((category) => (
             <div
               key={category.id}
               className={`item${category.id} collection-position-2 hover-img`}
             >
-              <a className="img-style">
+              <Link to={`/shop?category=${category.slug}`} className="img-style">
                 <img
                   className="lazyload"
                   data-src={category.imgSrc}
@@ -24,9 +24,9 @@ export default function Collections() {
                   width={category.width}
                   height={category.height}
                 />
-              </a>
+              </Link>
               <div className="content">
-                <Link to={`/shop-categories-top`} className="cls-btn">
+                <Link to={`/shop?category=${category.slug}`} className="cls-btn">
                   <h6 className="text">{category.title}</h6>
                   <i className="icon icon-arrowUpRight" />
                 </Link>

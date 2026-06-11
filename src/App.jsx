@@ -48,6 +48,7 @@ import ShopLeftSidebarPage from "./pages/products/shop-left-sidebar";
 import ShopRightSidebarPage from "./pages/products/shop-right-sidebar";
 import ShopFilterDropdownPage from "./pages/products/shop-filter-dropdown";
 import ShopFilterCanvasPage from "./pages/products/shop-filter-canvas";
+import ShopPage from "./pages/products/shop";
 import ShopCategoriesTopPage1 from "./pages/products/shop-categories-top";
 import ShopCategoriesTopPag2 from "./pages/products/shop-categories-top-02";
 import ShopCollectionPage from "./pages/products/shop-collection";
@@ -316,6 +317,7 @@ function App() {
               <Route path="home-sneaker" element={<HomeSneakerPage />} />
               <Route path="home-gaming" element={<HomeGamingPage />} />
 
+              <Route path="shop" element={<ShopPage />} />
               <Route
                 path="shop-default-grid"
                 element={<ShopDefaultGridPage />}

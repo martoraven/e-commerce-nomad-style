@@ -1,8 +1,8 @@
 import ProductCard1 from "@/components/productCards/ProductCard1";
-import { products } from "@/data/products";
+import { stonepathProducts } from "@/data/stonepath-products";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-const tabItems = ["New Arrivals", "Best Seller", "On Sale"];
+const tabItems = ["New Arrivals", "Best Seller"];
 
 export default function Products3({ parentClass = "flat-spacing-3" }) {
   const [activeItem, setActiveItem] = useState(tabItems[0]); // Default the first item as active
@@ -11,7 +11,7 @@ export default function Products3({ parentClass = "flat-spacing-3" }) {
     document.getElementById("newArrivals").classList.remove("filtered");
     setTimeout(() => {
       setSelectedItems(
-        products.filter((elm) => elm.tabFilterOptions2.includes(activeItem))
+        stonepathProducts.filter((elm) => elm.tabFilterOptions2.includes(activeItem))
       );
       document.getElementById("newArrivals").classList.add("filtered");
     }, 300);
@@ -49,7 +49,7 @@ export default function Products3({ parentClass = "flat-spacing-3" }) {
                 ))}
               </div>
               <div className="sec-btn text-center">
-                <Link to={`/shop-default-grid`} className="btn-line">
+                <Link to={`/shop`} className="btn-line">
                   View All Products
                 </Link>
               </div>
