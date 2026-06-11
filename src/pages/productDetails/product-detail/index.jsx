@@ -10,16 +10,16 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 import MetaComponent from "@/components/common/MetaComponent";
-const metadata = {
-  title: "Product Detail || Modave - Multipurpose Reactjs eCommerce Template",
-  description: "Modave - Multipurpose Reactjs eCommerce Template",
-};
 
 export default function ProductDetailPage() {
   let params = useParams();
   const id = params.id;
 
   const product = allProducts.filter((p) => p.id == id)[0] || allProducts[0];
+  const metadata = {
+    title: `${product.title} — STONEPATH`,
+    description: product.description || "STONEPATH product detail",
+  };
   return (
     <>
       <MetaComponent meta={metadata} />
@@ -27,8 +27,8 @@ export default function ProductDetailPage() {
       <Header1 />
       <Breadcumb product={product} />
       <Details1 product={product} />
-      <Descriptions1 />
-      <RelatedProducts />
+      <Descriptions1 product={product} />
+      <RelatedProducts product={product} />
       <Footer1 hasPaddingBottom />
     </>
   );
