@@ -168,22 +168,22 @@ matte black countertop blender filled with a green smoothie on a dark wooden kit
 
 ---
 
-## 07 — RETRO HANDHELD
-Carpeta: `public/images/products/stonepath/retro-handheld/`
+## 07 — CHARGING STATION
+Carpeta: `public/images/products/stonepath/charging-station/`
 
-→ guardar como: `main.png` y `color-natural.png`
+→ guardar como: `main.png` y `color-black.png`
 ```
-vintage style retro handheld game console in cream retro beige with dark grey D-pad and red action buttons, 3.5 inch screen displaying colorful pixel art platformer game, flat lay on white Carrara marble, minimalist product photography, soft diffused studio lighting, with subtle STONEPATH lettering printed below the screen
+3-in-1 wireless charging station with black aluminum frame and full-grain leather base, magnetic phone stand holding an iPhone upright, Apple Watch charging puck and AirPods resting on the leather pad, on white Carrara marble, minimalist product photography, soft diffused studio lighting, clean editorial style, with subtle STONEPATH lettering embossed on the leather base
 ```
 
 → guardar como: `gallery-02.png`
 ```
-extreme close-up macro of a retro handheld game console showing tactile cross-shaped D-pad and round action buttons, pixel art glowing on screen in the background, dark slate surface, warm side lighting, shallow depth of field
+extreme close-up macro of a wireless charging station showing the magnetic charging pad, black leather texture and a single braided USB-C cable, dark slate background, warm directional side lighting, sharp product detail, with subtle STONEPATH lettering embossed on the leather
 ```
 
 → guardar como: `hover.png` y `gallery-03.png`
 ```
-hands holding a retro handheld game console playing a pixel art game, cozy dim living room in the background, warm evening light, nostalgic lifestyle product shot, close crop, with subtle STONEPATH lettering printed below the screen
+3-in-1 wireless charging station on a wooden nightstand at night charging an iPhone, Apple Watch and AirPods, warm dim bedside lamp light, cozy minimal bedroom blurred in the background, lifestyle editorial product shot, with subtle STONEPATH lettering embossed on the leather base
 ```
 
 ---

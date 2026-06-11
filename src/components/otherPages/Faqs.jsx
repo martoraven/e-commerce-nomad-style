@@ -80,7 +80,7 @@ const faqGroups = [
       {
         question: "Do products come with a warranty?",
         answer:
-          "All STONEPATH products include a 2-year limited warranty covering manufacturing defects in materials and workmanship. Electronics such as the Party Speaker XL, the Retro Handheld and the Card Tracker also include a 1-year battery warranty.",
+          "All STONEPATH products include a 2-year limited warranty covering manufacturing defects in materials and workmanship. Electronics such as the Party Speaker XL, the Charging Station and the Card Tracker also include a 1-year battery warranty.",
       },
       {
         question: "Where can I find product manuals?",
