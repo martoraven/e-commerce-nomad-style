@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { Link } from "react-router-dom";
 import { useContextElement } from "@/context/Context";
-import { products41 } from "@/data/products";
+import { stonepathProducts } from "@/data/stonepath-products";
 export default function CartModal() {
   const {
     cartProducts,
@@ -26,7 +26,13 @@ export default function CartModal() {
             <h6 className="title">You May Also Like</h6>
             <div className="wrap-recommendations">
               <div className="list-cart">
-                {products41.map((product, index) => (
+                {stonepathProducts
+                  .filter(
+                    (product) =>
+                      !cartProducts.some((item) => item.id == product.id)
+                  )
+                  .slice(0, 4)
+                  .map((product, index) => (
                   <div className="list-cart-item" key={index}>
                     <div className="image">
                       <img
@@ -42,7 +48,7 @@ export default function CartModal() {
                       <div className="name">
                         <Link
                           className="link text-line-clamp-1"
-                          href="/product-detail"
+                          to={`/product-detail/${product.id}`}
                         >
                           {product.title}
                         </Link>
