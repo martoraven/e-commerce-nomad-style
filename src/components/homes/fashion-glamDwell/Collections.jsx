@@ -9,11 +9,11 @@ export default function Collections() {
         <div className="heading-section text-center wow fadeInUp">
           <h3 className="heading">Shop by categories</h3>
         </div>
-        <div className="grid-cls grid-cls-v1">
+        <div className="tf-grid-layout tf-col-2 xl-col-5">
           {stonepathCategories.map((category) => (
             <div
               key={category.id}
-              className={`item${category.id} collection-position-2 hover-img`}
+              className="collection-position-2 hover-img"
             >
               <Link to={`/shop?category=${category.slug}`} className="img-style">
                 <img

@@ -50,26 +50,27 @@ export default function StonepathShopGrid({ products, activeCategory }) {
     <section className="flat-spacing">
       <div className="container">
         {/* Category tabs */}
-        <div className="tf-shop-control mb-4">
-          <div className="tf-control-filter d-flex align-items-center gap-2 flex-wrap">
+        <div className="d-flex align-items-center gap-2 flex-wrap mb-3">
+          <Link
+            to="/shop"
+            className={`tf-btn btn-sm text-btn-uppercase ${!activeCategory ? "btn-fill" : "btn-line"}`}
+          >
+            All
+          </Link>
+          {stonepathCategories.map((cat) => (
             <Link
-              to="/shop"
-              className={`tf-btn btn-sm text-btn-uppercase ${!activeCategory ? "btn-fill" : "btn-line"}`}
+              key={cat.id}
+              to={`/shop?category=${cat.slug}`}
+              className={`tf-btn btn-sm text-btn-uppercase ${activeCategory === cat.slug ? "btn-fill" : "btn-line"}`}
             >
-              All
+              {cat.title}
             </Link>
-            {stonepathCategories.map((cat) => (
-              <Link
-                key={cat.id}
-                to={`/shop?category=${cat.slug}`}
-                className={`tf-btn btn-sm text-btn-uppercase ${activeCategory === cat.slug ? "btn-fill" : "btn-line"}`}
-              >
-                {cat.title}
-              </Link>
-            ))}
-          </div>
+          ))}
+        </div>
 
-          <ul className="tf-control-layout">
+        {/* Layout switch + sorting */}
+        <div className="d-flex align-items-center justify-content-between gap-3 flex-wrap mb-4">
+          <ul className="tf-control-layout d-flex align-items-center gap-2 m-0 p-0">
             <LayoutHandler
               setActiveLayout={setActiveLayout}
               activeLayout={activeLayout}

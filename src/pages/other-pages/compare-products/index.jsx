@@ -31,7 +31,7 @@ export default function CompareProductsPage() {
               <i className="icon-arrRight" />
             </li>
             <li>
-              <Link className="link" to={`/shop-default-grid`}>
+              <Link className="link" to={`/shop`}>
                 Shop
               </Link>
             </li>

@@ -11,7 +11,8 @@ const CATEGORY_NAMES = {
   wallets: "Wallets",
   eyewear: "Eyewear",
   kitchen: "Kitchen",
-  gadgets: "Gadgets",
+  electronics: "Electronics & Gadgets",
+  "home-decor": "Home & Decor",
 };
 
 export default function ShopPage() {

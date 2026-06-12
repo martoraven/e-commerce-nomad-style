@@ -270,7 +270,7 @@ export default function ShopCart() {
                 <div>
                   Your wishlist is empty. Start adding your favorite products to
                   save them for later!{" "}
-                  <Link className="btn-line" href="/shop-default-grid">
+                  <Link className="btn-line" to={`/shop`}>
                     Explore Products
                   </Link>
                 </div>

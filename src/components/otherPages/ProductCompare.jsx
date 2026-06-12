@@ -22,7 +22,7 @@ export default function ProductCompare() {
           <div>
             No items to compare yet. Add products to your comparison list and
             decide smarter!{" "}
-            <Link className="btn-line" href="/shop-default-grid">
+            <Link className="btn-line" to={`/shop`}>
               Explore Products
             </Link>
           </div>

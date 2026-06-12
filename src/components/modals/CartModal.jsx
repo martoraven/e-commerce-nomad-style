@@ -140,7 +140,7 @@ export default function CartModal() {
                       <div className="p-4">
                         Your Cart is empty. Start adding favorite products to
                         cart!{" "}
-                        <Link className="btn-line" href="/shop-default-grid">
+                        <Link className="btn-line" to={`/shop`}>
                           Explore Products
                         </Link>
                       </div>
@@ -303,7 +303,7 @@ export default function CartModal() {
                     <div className="text-center">
                       <Link
                         className="link text-btn-uppercase"
-                        to={`/shop-default-grid`}
+                        to={`/shop`}
                       >
                         Or continue shopping
                       </Link>

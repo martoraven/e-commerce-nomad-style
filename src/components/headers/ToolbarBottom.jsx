@@ -5,7 +5,7 @@ export default function ToolbarBottom() {
   return (
     <div className="tf-toolbar-bottom">
       <div className="toolbar-item">
-        <Link to={`/shop-default-grid`}>
+        <Link to={`/shop`}>
           <div className="toolbar-icon">
             <svg
               className="icon"

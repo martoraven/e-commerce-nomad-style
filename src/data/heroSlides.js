@@ -153,8 +153,8 @@ export const slides5 = [
     title: "Bring the Venue Home",
     description:
       "The Party Speaker XL: 1000W of stage-grade sound, 24 hours of battery, zero compromises.",
-    buttonText: "Shop Gadgets",
-    link: "/shop?category=gadgets",
+    buttonText: "Shop Electronics",
+    link: "/shop?category=electronics",
   },
 ];
 

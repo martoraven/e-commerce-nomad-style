@@ -28,7 +28,7 @@ const detailsByCategory = {
     ],
     care: "Hand wash blades and wood parts with mild soap and dry immediately. Jars, lids and removable plastic parts are dishwasher safe. Hone knives regularly and store them in the block.",
   },
-  Gadgets: {
+  "Electronics & Gadgets": {
     materials: [
       "Aircraft-grade aluminum body",
       "Full-grain leather contact surfaces",
@@ -37,9 +37,18 @@ const detailsByCategory = {
     ],
     care: "Wipe with a soft dry cloth. Keep away from water unless the product specifies an IP rating. Firmware-free by design: no apps, no updates, no expiration date.",
   },
+  "Home & Decor": {
+    materials: [
+      "Natural wood, mineral composite and aluminum finishes",
+      "Warm LED light sources rated for 25,000+ hours",
+      "Hand-finished surfaces — slight variation is intentional",
+      "Designed in the USA",
+    ],
+    care: "Dust with a soft dry cloth; avoid abrasive cleaners on matte finishes. For lighting and diffusers, charge or refill only as indicated and keep electronics away from direct water contact.",
+  },
 };
 
-const defaultDetails = detailsByCategory.Gadgets;
+const defaultDetails = detailsByCategory["Electronics & Gadgets"];
 
 export default function Description({ product }) {
   const details = detailsByCategory[product?.category] || defaultDetails;

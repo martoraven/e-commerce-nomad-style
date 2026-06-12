@@ -54,7 +54,7 @@ const reviewsByCategory = {
       text: "It was supposed to be a wedding present. After unboxing it I ordered a second one because there was no way I was giving this up. Looks great on the counter and performs even better.",
     },
   ],
-  Gadgets: [
+  "Electronics & Gadgets": [
     {
       title: "Does exactly what it promises",
       daysAgo: "1 week ago",
@@ -71,9 +71,26 @@ const reviewsByCategory = {
       text: "One of those products you don't know you need until you have it, and then you can't go back. Quality construction, thoughtful details, fast shipping. No complaints at all.",
     },
   ],
+  "Home & Decor": [
+    {
+      title: "Instantly elevated the room",
+      daysAgo: "1 week ago",
+      text: "It's the first thing guests comment on. The finish looks far more expensive than it is, and it fits in with everything else on the shelf instead of fighting for attention. Very happy with this one.",
+    },
+    {
+      title: "Quality you notice up close",
+      daysAgo: "3 weeks ago",
+      text: "Photos don't do the texture justice — it has real weight and the surface feels carefully finished. Packaging was excellent too, double-boxed with no damage. Would buy from this brand again.",
+    },
+    {
+      title: "Bought one, came back for more",
+      daysAgo: "1 month ago",
+      text: "Started with one piece for the living room and ended up ordering for the bedroom too. Everything matches in tone without being identical. Shipping was quick both times.",
+    },
+  ],
 };
 
-const defaultReviews = reviewsByCategory.Gadgets;
+const defaultReviews = reviewsByCategory["Electronics & Gadgets"];
 
 const authors = [
   { name: "Daniel M.", avatar: "/images/avatar/user-default.jpg" },

@@ -228,6 +228,126 @@ large matte black party speaker standing on a wooden deck at dusk during a backy
 
 ---
 
+## 10 — LAPTOP DOCK
+Carpeta: `public/images/products/stonepath/laptop-dock/`
+
+→ guardar como: `main.png` y `color-black.png`
+```
+12-in-1 USB-C laptop docking station in milled matte black aluminum with full-grain leather base pad, multiple ports visible along the edge, flat lay on white Carrara marble, minimalist product photography, soft diffused studio lighting, clean editorial style, with subtle STONEPATH lettering engraved on the aluminum
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of an aluminum laptop dock edge showing HDMI, USB-C and SD card ports with precise machined edges, dark slate background, warm directional side lighting, sharp product detail, with subtle STONEPATH lettering engraved on the aluminum
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+matte black aluminum laptop dock connected by a single cable to a laptop on a clean wooden desk with an external monitor glowing in the background, tidy minimal workspace, warm natural window light, lifestyle editorial product shot, with subtle STONEPATH lettering engraved on the aluminum
+```
+
+---
+
+## 11 — ELECTRIC SCOOTER
+Carpeta: `public/images/products/stonepath/electric-scooter/`
+
+→ guardar como: `main.png` y `color-black.png`
+```
+sleek matte black electric kick scooter for adults with 10 inch tires and minimal integrated display on the handlebar, standing on white seamless studio background, clean product photography, soft diffused lighting, high resolution, editorial style, with subtle STONEPATH lettering on the stem
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of an electric scooter handlebar showing minimal round LED display with speed and battery indicators and brake lever, dark background, moody directional lighting, sharp product detail, with subtle STONEPATH lettering on the stem
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+matte black electric scooter folded and leaning against a concrete wall in a modern city street at golden hour, urban commuter lifestyle shot, warm evening light, shallow depth of field, with subtle STONEPATH lettering on the stem
+```
+
+---
+
+## 12 — ELECTRIC SHAVER
+Carpeta: `public/images/products/stonepath/electric-shaver/`
+
+→ guardar como: `main.png` y `color-black.png`
+```
+premium matte black electric foil shaver for men with metal body standing upright, flat lay on white Carrara marble, minimalist product photography, soft diffused studio lighting, clean editorial style, high resolution, with subtle STONEPATH lettering on the handle
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of an electric shaver triple foil head showing precision metal mesh detail, water droplets on the surface, dark slate background, dramatic side lighting, sharp product detail
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+matte black electric shaver resting on a full-grain leather travel pouch on a bathroom marble countertop, folded white towel beside it, warm morning light, masculine grooming lifestyle product shot, with subtle STONEPATH lettering on the handle
+```
+
+---
+
+## 13 — CORDLESS LAMP
+Carpeta: `public/images/products/stonepath/cordless-lamp/`
+
+→ guardar como: `main.png` y `color-black.png`
+```
+minimalist cordless rechargeable table lamp in matte black aluminum with warm glowing dome light, standing on white Carrara marble, clean product photography, soft diffused studio lighting, editorial style, high resolution, with subtle STONEPATH lettering on the base
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of a cordless lamp base showing touch dimmer ring and USB-C charging port in matte black aluminum, warm glow from above, dark background, sharp product detail, with subtle STONEPATH lettering on the base
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+cordless table lamp glowing warmly on an outdoor dinner table at dusk with wine glasses and linen napkins, cozy intimate evening atmosphere, soft bokeh background, lifestyle editorial product shot, with subtle STONEPATH lettering on the base
+```
+
+---
+
+## 14 — DECOR SCULPTURE
+Carpeta: `public/images/products/stonepath/decor-sculpture/`
+
+→ guardar como: `main.png` y `color-natural.png`
+```
+abstract organic sculpture in matte sandstone beige mineral finish, smooth flowing curved form, standing on white Carrara marble, minimalist product photography, soft diffused studio lighting, clean editorial style, high resolution
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of an abstract sandstone sculpture surface showing fine mineral grain texture, soft warm raking light revealing the matte stone finish, neutral background, sharp detail
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+abstract sandstone sculpture styled on a wooden console next to a stack of books and a linen wall in the background, soft warm afternoon window light, calm minimal interior lifestyle shot, shallow depth of field
+```
+
+---
+
+## 15 — AROMA DIFFUSER
+Carpeta: `public/images/products/stonepath/aroma-diffuser/`
+
+→ guardar como: `main.png` y `color-natural.png`
+```
+ultrasonic essential oil aroma diffuser with natural light wood grain base and matte white top releasing a fine soft mist, warm ambient glow from the base, on white Carrara marble, minimalist product photography, soft diffused studio lighting, clean editorial style, with subtle STONEPATH lettering on the wood base
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of an aroma diffuser wood grain base with warm light glowing through, fine mist rising softly against a dark background, moody side lighting, sharp product detail, with subtle STONEPATH lettering on the wood base
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+wood base aroma diffuser releasing soft mist on a bedside table at night with warm dim bedroom lighting and folded linen in the background, calm cozy lifestyle editorial shot, shallow depth of field, with subtle STONEPATH lettering on the wood base
+```
+
+---
+
 ## HERO SLIDER (home)
 Carpeta: `public/images/slider/`
 Aspect ratio: **16:9 (Widescreen)** — después recortar a **1920×803** (crop horizontal centrado).
