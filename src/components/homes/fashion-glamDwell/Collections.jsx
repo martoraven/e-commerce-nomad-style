@@ -9,7 +9,7 @@ export default function Collections() {
         <div className="heading-section text-center wow fadeInUp">
           <h3 className="heading">Shop by categories</h3>
         </div>
-        <div className="tf-grid-layout tf-col-2 xl-col-5">
+        <div className="tf-grid-layout tf-col-2 lg-col-3 xl-col-6">
           {stonepathCategories.map((category) => (
             <div
               key={category.id}

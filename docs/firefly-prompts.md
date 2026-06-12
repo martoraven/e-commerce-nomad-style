@@ -6,27 +6,27 @@ Pegá cada prompt en Firefly → Text to Image. Aspect ratio 1:1. Content type: 
 ## 01 — SLIM BIFOLD
 Carpeta: `public/images/products/stonepath/slim-bifold/`
 
-→ guardar como: `main.jpg` y `color-natural.jpg`
+→ guardar como: `main.png` y `color-natural.png`
 ```
 STONEPATH slim leather bifold wallet in natural tan, flat lay on white Carrara marble, minimalist product photography, soft diffused studio lighting from above, high resolution, clean editorial style, no shadows, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-black.jpg`
+→ guardar como: `color-black.png`
 ```
 STONEPATH slim leather bifold wallet in matte black, flat lay on white Carrara marble, minimalist product photography, soft diffused studio lighting from above, high resolution, clean editorial style, no shadows, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-dark-brown.jpg`
+→ guardar como: `color-dark-brown.png`
 ```
 STONEPATH slim leather bifold wallet in dark brown, flat lay on white Carrara marble, minimalist product photography, soft diffused studio lighting from above, high resolution, clean editorial style, no shadows, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `gallery-02.jpg`
+→ guardar como: `gallery-02.png`
 ```
 slim bifold wallet open showing four card slots, natural grain leather texture, close-up on dark charcoal concrete background, moody masculine aesthetic, warm soft side lighting, macro detail, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `hover.jpg` y `gallery-03.jpg`
+→ guardar como: `hover.png` y `gallery-03.png`
 ```
 slim leather bifold wallet in matte black, flat lay on dark slate surface, keys and a pen placed beside it, masculine lifestyle product shot, morning natural light, overhead angle, with subtle debossed STONEPATH lettering on the leather
 ```
@@ -36,32 +36,32 @@ slim leather bifold wallet in matte black, flat lay on dark slate surface, keys 
 ## 02 — CARD SLEEVE
 Carpeta: `public/images/products/stonepath/card-sleeve/`
 
-→ guardar como: `main.jpg` y `color-natural.jpg`
+→ guardar como: `main.png` y `color-natural.png`
 ```
 ultra-minimal leather card sleeve wallet in natural tan, flat lay on white marble, minimalist product photography, clean studio lighting, overhead view, high resolution, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-black.jpg`
+→ guardar como: `color-black.png`
 ```
 ultra-minimal leather card sleeve wallet in matte black, flat lay on white marble, minimalist product photography, clean studio lighting, overhead view, high resolution, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-dark-brown.jpg`
+→ guardar como: `color-dark-brown.png`
 ```
 ultra-minimal leather card sleeve wallet in dark brown, flat lay on white marble, minimalist product photography, clean studio lighting, overhead view, high resolution, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-midnight.jpg`
+→ guardar como: `color-midnight.png`
 ```
 ultra-minimal leather card sleeve wallet in midnight navy, flat lay on white marble, minimalist product photography, clean studio lighting, overhead view, high resolution, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `gallery-02.jpg`
+→ guardar como: `gallery-02.png`
 ```
 slim leather cardholder with three credit cards fanned out slightly, dark oak wood surface, close-up macro, natural window light from the left, warm tones, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `hover.jpg` y `gallery-03.jpg`
+→ guardar como: `hover.png` y `gallery-03.png`
 ```
 matte black leather card sleeve on smooth concrete surface, architectural geometric shadows, masculine minimalist product photography, top-down angle, with subtle debossed STONEPATH lettering on the leather
 ```
@@ -71,27 +71,27 @@ matte black leather card sleeve on smooth concrete surface, architectural geomet
 ## 03 — EYEWEAR SLEEVE
 Carpeta: `public/images/products/stonepath/eyewear-sleeve/`
 
-→ guardar como: `main.jpg` y `color-natural.jpg`
+→ guardar como: `main.png` y `color-natural.png`
 ```
 soft leather eyewear sleeve in natural tan with sunglasses partially inserted, flat lay on white marble, minimalist product photography, soft diffused overhead light, editorial clean style, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-black.jpg`
+→ guardar como: `color-black.png`
 ```
 soft leather eyewear sleeve in matte black with sunglasses partially inserted, flat lay on white marble, minimalist product photography, soft diffused overhead light, editorial clean style, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-dark-brown.jpg`
+→ guardar como: `color-dark-brown.png`
 ```
 soft leather eyewear sleeve in dark brown with sunglasses partially inserted, flat lay on white marble, minimalist product photography, soft diffused overhead light, editorial clean style, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `gallery-02.jpg`
+→ guardar como: `gallery-02.png`
 ```
 leather glasses sleeve close-up showing soft microfiber interior lining, product turned inside-out slightly, macro photography, warm natural afternoon light, shallow depth of field, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `hover.jpg` y `gallery-03.jpg`
+→ guardar como: `hover.png` y `gallery-03.png`
 ```
 matte black leather eyewear pouch with classic rectangular sunglasses beside it on dark charcoal concrete, masculine editorial product shot, moody directional lighting, with subtle debossed STONEPATH lettering on the leather
 ```
@@ -101,27 +101,27 @@ matte black leather eyewear pouch with classic rectangular sunglasses beside it 
 ## 04 — EYEWEAR CASE
 Carpeta: `public/images/products/stonepath/eyewear-case/`
 
-→ guardar como: `main.jpg` y `color-natural.jpg`
+→ guardar como: `main.png` y `color-natural.png`
 ```
 semi-rigid leather glasses case with magnetic snap closure in natural tan leather, closed on white Carrara marble, overhead product photography, clean soft studio lighting, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-black.jpg`
+→ guardar como: `color-black.png`
 ```
 semi-rigid leather glasses case with magnetic snap closure in matte black leather, closed on white Carrara marble, overhead product photography, clean soft studio lighting, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `color-dark-brown.jpg`
+→ guardar como: `color-dark-brown.png`
 ```
 semi-rigid leather glasses case with magnetic snap closure in dark brown leather, closed on white Carrara marble, overhead product photography, clean soft studio lighting, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `gallery-02.jpg`
+→ guardar como: `gallery-02.png`
 ```
 leather eyewear hard case open showing tan suede interior lining, product resting on dark wood surface, warm natural window light, detail close-up shot, with subtle debossed STONEPATH lettering on the leather
 ```
 
-→ guardar como: `hover.jpg` y `gallery-03.jpg`
+→ guardar como: `hover.png` y `gallery-03.png`
 ```
 o o
 ```
@@ -344,6 +344,66 @@ extreme close-up macro of an aroma diffuser wood grain base with warm light glow
 → guardar como: `hover.png` y `gallery-03.png`
 ```
 wood base aroma diffuser releasing soft mist on a bedside table at night with warm dim bedroom lighting and folded linen in the background, calm cozy lifestyle editorial shot, shallow depth of field, with subtle STONEPATH lettering on the wood base
+```
+
+---
+
+## 16 — MASSAGE GUN
+Carpeta: `public/images/products/stonepath/massage-gun/`
+
+→ guardar como: `main.png` y `color-black.png`
+```
+premium matte black percussive massage gun with metal body and round foam head, standing upright on white Carrara marble, minimalist product photography, soft diffused studio lighting, clean editorial style, high resolution, with subtle STONEPATH lettering on the handle
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of a matte black massage gun showing interchangeable head attachments lined up in a hard case with custom foam slots, dark slate background, moody directional lighting, sharp product detail, with subtle STONEPATH lettering on the handle
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+matte black massage gun resting on a folded towel next to a yoga mat and water bottle in a bright minimal home gym, post workout atmosphere, warm natural window light, lifestyle editorial product shot, with subtle STONEPATH lettering on the handle
+```
+
+---
+
+## 17 — SMART SCALE
+Carpeta: `public/images/products/stonepath/smart-scale/`
+
+→ guardar como: `main.png` y `color-black.png`
+```
+sleek black tempered glass smart bathroom scale with slim aluminum frame and bright integrated digital display glowing softly, flat lay on white Carrara marble, minimalist product photography, soft diffused studio lighting, clean editorial style, with subtle STONEPATH lettering below the display
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of a smart scale corner showing tempered glass surface, brushed aluminum edge and glowing display digits, dark background, warm directional side lighting, sharp product detail
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+black glass smart scale on warm wooden bathroom floor next to a freestanding bathtub and folded white towels, bright spa-like minimal bathroom, soft morning light, lifestyle editorial product shot, with subtle STONEPATH lettering below the display
+```
+
+---
+
+## 18 — INSULATED BOTTLE
+Carpeta: `public/images/products/stonepath/insulated-bottle/`
+
+→ guardar como: `main.png` y `color-midnight.png`
+```
+premium insulated stainless steel water bottle in matte midnight navy powder coat finish with minimal handle lid, standing on white Carrara marble, condensation-free clean surface, minimalist product photography, soft diffused studio lighting, editorial style, with subtle STONEPATH lettering on the bottle
+```
+
+→ guardar como: `gallery-02.png`
+```
+extreme close-up macro of an insulated bottle wide mouth opening with lid removed showing polished 18/8 stainless steel interior and matte midnight navy exterior, ice cubes beside it, dark slate background, dramatic side lighting, sharp detail
+```
+
+→ guardar como: `hover.png` y `gallery-03.png`
+```
+matte midnight navy insulated bottle standing on a rock at a hiking trail viewpoint with mountains blurred in the background, golden hour light, outdoor adventure lifestyle product shot, shallow depth of field, with subtle STONEPATH lettering on the bottle
 ```
 
 ---

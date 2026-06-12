@@ -88,6 +88,23 @@ const reviewsByCategory = {
       text: "Started with one piece for the living room and ended up ordering for the bedroom too. Everything matches in tone without being identical. Shipping was quick both times.",
     },
   ],
+  Wellness: [
+    {
+      title: "Part of my routine within a week",
+      daysAgo: "1 week ago",
+      text: "I've bought wellness gear before that ended up in a drawer by month two. This one actually stuck — it's well built, simple to use, and the results show up fast enough to keep you coming back.",
+    },
+    {
+      title: "Recovery days feel different now",
+      daysAgo: "3 weeks ago",
+      text: "Train four times a week and this has genuinely changed how my legs feel the next morning. Solid construction, battery lasts forever, and it doesn't look like cheap gym equipment on the shelf.",
+    },
+    {
+      title: "Materials are a cut above",
+      daysAgo: "1 month ago",
+      text: "You can tell the difference the moment you unbox it — real steel and glass where other brands use creaky plastic. Works exactly as advertised with zero setup friction. Easy recommendation.",
+    },
+  ],
 };
 
 const defaultReviews = reviewsByCategory["Electronics & Gadgets"];

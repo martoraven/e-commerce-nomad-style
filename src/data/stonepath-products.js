@@ -396,6 +396,81 @@ export const stonepathProducts = [
     tabFilterOptions2: ["New Arrivals"],
   },
 
+  // 16 — Massage Gun
+  {
+    id: 354,
+    title: "STONEPATH Massage Gun",
+    price: 129.0,
+    imgSrc:   `${base}/massage-gun/main.png`,
+    imgHover: `${base}/massage-gun/hover.png`,
+    gallery: gallery("massage-gun"),
+    colorOptions: [
+      { id: "massage-gun-black", value: "Black", color: "black" },
+    ],
+    colors: [
+      { bgColor: "bg-main", imgSrc: `${base}/massage-gun/color-black.png` },
+    ],
+    category: "Wellness",
+    vendor: "STONEPATH",
+    description: "Recovery you'll actually use, because it doesn't sound like a power drill. The brushless motor stays under 45 dB while delivering deep percussive therapy across 30 speed levels, so you can use it watching TV without clearing the room. Five interchangeable heads cover everything from large muscle groups to trigger points, and the 6-hour battery charges over USB-C. Comes in a hard case with a slot for every head. Quiet enough for daily use, strong enough for leg day.",
+    inStock: true,
+    filterBrands: ["STONEPATH"],
+    filterColor: ["Black"],
+    filterSizes: [],
+    tabFilterOptions: ["Wellness"],
+    tabFilterOptions2: ["New Arrivals", "Best Seller"],
+  },
+
+  // 17 — Smart Scale
+  {
+    id: 355,
+    title: "STONEPATH Smart Scale",
+    price: 59.0,
+    imgSrc:   `${base}/smart-scale/main.png`,
+    imgHover: `${base}/smart-scale/hover.png`,
+    gallery: gallery("smart-scale"),
+    colorOptions: [
+      { id: "smart-scale-black", value: "Black", color: "black" },
+    ],
+    colors: [
+      { bgColor: "bg-main", imgSrc: `${base}/smart-scale/color-black.png` },
+    ],
+    category: "Wellness",
+    vendor: "STONEPATH",
+    description: "A smart scale that works without your phone. The tempered glass platform and aluminum frame read 13 body metrics — weight, body fat, muscle mass, hydration and more — and show them right on the bright integrated display. No app required for any of it; sync is optional if you want history on your phone. Recognizes up to 4 users automatically and runs months on a single USB-C charge. Step on, get your numbers, get on with your day.",
+    inStock: true,
+    filterBrands: ["STONEPATH"],
+    filterColor: ["Black"],
+    filterSizes: [],
+    tabFilterOptions: ["Wellness"],
+    tabFilterOptions2: ["New Arrivals"],
+  },
+
+  // 18 — Insulated Bottle
+  {
+    id: 356,
+    title: "STONEPATH Insulated Bottle",
+    price: 39.0,
+    imgSrc:   `${base}/insulated-bottle/main.png`,
+    imgHover: `${base}/insulated-bottle/hover.png`,
+    gallery: gallery("insulated-bottle"),
+    colorOptions: [
+      { id: "insulated-bottle-midnight", value: "Midnight", color: "blue" },
+    ],
+    colors: [
+      { bgColor: "bg-dark-blue", imgSrc: `${base}/insulated-bottle/color-midnight.png` },
+    ],
+    category: "Wellness",
+    vendor: "STONEPATH",
+    description: "Double-wall vacuum insulation in 18/8 stainless steel keeps drinks cold for 24 hours or hot for 12 — ice still rattling at the end of a summer hike. The wide mouth takes ice cubes and a deep clean without a bottle brush fight, the powder-coated Midnight finish won't sweat or slip, and the lid handle clips to a carabiner or two fingers. No plastic touches your drink. One bottle, every season, for years.",
+    inStock: true,
+    filterBrands: ["STONEPATH"],
+    filterColor: ["Midnight"],
+    filterSizes: [],
+    tabFilterOptions: ["Wellness"],
+    tabFilterOptions2: ["New Arrivals"],
+  },
+
 ];
 
 export const stonepathCategories = [
@@ -441,6 +516,15 @@ export const stonepathCategories = [
     title: "Home & Decor",
     imgSrc: `${base}/cordless-lamp/main.png`,
     alt: "Home & Decor",
+    width: 615,
+    height: 819,
+  },
+  {
+    id: 6,
+    slug: "wellness",
+    title: "Wellness",
+    imgSrc: `${base}/massage-gun/main.png`,
+    alt: "Wellness",
     width: 615,
     height: 819,
   },

@@ -13,6 +13,7 @@ const CATEGORY_NAMES = {
   kitchen: "Kitchen",
   electronics: "Electronics & Gadgets",
   "home-decor": "Home & Decor",
+  wellness: "Wellness",
 };
 
 export default function ShopPage() {

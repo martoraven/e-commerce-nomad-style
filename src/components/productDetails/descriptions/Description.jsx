@@ -46,6 +46,15 @@ const detailsByCategory = {
     ],
     care: "Dust with a soft dry cloth; avoid abrasive cleaners on matte finishes. For lighting and diffusers, charge or refill only as indicated and keep electronics away from direct water contact.",
   },
+  Wellness: {
+    materials: [
+      "18/8 stainless steel, tempered glass and aluminum",
+      "Skin-safe, BPA-free contact surfaces",
+      "Premium electronic components, CE and FCC certified",
+      "Designed in the USA",
+    ],
+    care: "Wipe electronics with a soft dry cloth and charge over USB-C only. Hand wash the insulated bottle — no dishwasher, no freezer — and let it dry with the lid off.",
+  },
 };
 
 const defaultDetails = detailsByCategory["Electronics & Gadgets"];
